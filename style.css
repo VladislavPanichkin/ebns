@@ -1,0 +1,23 @@
+.main {
+    background: url('./background.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center
+}
+
+.video-container {
+    margin: 0 auto
+}
+
+video {
+    -webkit-box-shadow: -45px 50px 74px 20px rgba(250,3,250,1);
+    -moz-box-shadow: -45px 50px 74px 20px rgba(250,3,250,1);
+    box-shadow: -45px 50px 74px 20px rgba(250,3,250,1);
+    margin-left: 34%
+}
